@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product detial</title>
+</head>
+<body>
+    <header class="w-screen">
+        <nav class="bg-black flex justify-center items-center gap-2">
+            <a href="#">
+                <img src="photo/logo.webp" alt="" class="h-20">
+            </a>
+            <div class="flex flex-col">
+               <div class="flex items-center">
+                    <div class="flex">
+                        <input type="text" placeholder="hello" class=" rounded-full w-[1000px] h-10  p-4">
+
+                    </div>
+                    
+                    <div>
+                        <button type="button" class="bg-black text-white  -ms-14 rounded-full w-12 h-8 text-xl">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+
+                    </div>
+               </div>
+                <div  class="text-gray-50 text-sm ">
+                    <span class="border-r-2 mr-1">shark slippers   </span>
+                    <span class="border-r-2 mr-1">cool lighters     </span>
+                    <span class="border-r-2 mr-1">hello kitty backpack      </span>
+                    <span>hello kitty pajamas</span>                    
+                </div>  
+                
+            </div>
+
+
+            <div class="text-white flex px-2">
+                <div class="text-4xl px-1">
+                    <i class="fa-solid fa-qrcode"></i>
+                </div>
+                <p class="text-sm">Download the <br>
+                    AliExpress app 
+                </p>
+            </div>
+
+            <div class="flex px-2 items-center gap-1" >
+                <a href="#">
+                    <img src="photo/myanmar.png" alt="" class="h-5">
+                </a>
+                <div class="bg-black text-white text-sm">
+                    <p >EN/</p>
+                    <p class="font-bold">MMK <i class="fa-solid fa-circle-chevron-down"></i></p>
+                </div>
+            </div>
+
+            <div class="flex text-white gap-1">
+                <div class="text-3xl">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="bg-black text-sm">
+                    <p >Welcome</p>
+                    <p class="font-bold">Sign in / Register <i class="fa-solid fa-circle-chevron-down"></i></p>
+                </div>
+            </div>
+
+            <div class="flex text-white gap-1">
+                <div class="text-3xl">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="bg-black text-sm">
+                    <p class="border border-white text-center rounded-full bg-white text-black font-bold">0</p>
+                    <p class="font-bold">Cart</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="w-screen">
+        <div class="bg-black flex w-full">
+            <div class="flex justify-between px-40 w-full">
+                <div class="flex">
+                    <img src="photo/kid.webp" alt="" class="h-9 rounded-full">
+                    <div class="group relative inline-block">
+                        <button type="button" id="multiLevelDropdownButton" data-dropdown-toggle="multi-dropdown" class="py-2.5 px-1 me-2 mb-2 text-sm font-medium text-center  items-center text-white focus:outline-none bg-black  "> Shop5370096 Store >
+                            <img src="photo/choice.webp" alt="" class="h-2">
+                        </button>
+
+                            <div class="absolute hidden group-hover:block bg-white p-4 rounded-lg w-[700px]" >
+                                <div class="grid grid-cols-2">
+                                    <div>
+                                        <h1 class="text-black font-bold pb-4 ">Store info</h1>
+                                        <p class="text-base">Name: Shop5370096 Store</p>
+                                        <p class="text-base">Store No.: 5370096</p>
+                                        <p class="text-base">Location: China</p>
+                                        <p class="text-base">Open since: Sep 28, 2019</p>
+                                        <p class="text-base text-blue-400">Business info</p>   
+                                    </div>
+                                    <div >
+                                        <h1 class="text-black font-bold pb-4 ">Detailed seller ratings </h1>
+                                        <div class="flex gap-6">
+                                            <p class="text-base">Item as Described:</p><p class="text-red-400"> 4.5 Below Average</p>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <p class="text-base">Communication:</p><p class="text-red-400"> 4.5 Below Average</p>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <p class="text-base">Shipping Speed:</p><p class="text-red-400"> 4.6 Below Average</p>        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div  class="text-gray-50 text-sm mt-3 ">
+                    <span class="border-r-2 mr-4 pr-4">92.6% Positive Feedback </span>
+                    <span class="mr-4">1.0M Followers  </span>  
+                    <button type="button"  class="py-2.5 px-5 me-2 mb-2  text-sm font-medium text-black bg-white focus:outline-none rounded-full  "  > + Follow</button>                 
+                </div>  
+            </div>
+        </div>
+
+        <div class="bg-gray-100 w-full gap-6">
+
+            <button type="button"  class="py-5 px-5 ml-40 text-sm font-medium text-black focus:outline-none  border-b-4 hover:border-red-400">  Store Home </button>
+            <button type="button"  class="py-5 px-5 text-sm font-medium text-black focus:outline-none border-b-4 hover:border-red-400">  Products </button>
+            <button type="button"  class="py-5 px-5 text-sm font-medium text-black focus:outline-none  border-b-4 hover:border-red-400">  11.11 SALE </button>
+            <button type="button"  class="py-5 px-5 text-sm font-medium text-black focus:outline-none  border-b-4 hover:border-red-400">  Top Selling </button>
+            <button type="button"  class="py-5 px-5 text-sm font-medium text-black focus:outline-none  border-b-4 hover:border-red-400">  New Arrivals</button>
+            <button type="button"  class="py-5 px-5 text-sm font-medium text-black focus:outline-none  border-b-4 hover:border-red-400">  Feedback </button>
+            
+        </div>
+        <div class="w-full grid grid-cols-5">
+            <div class="col-span-2">   
+                <img src="photo/hat.webp" alt="">
+                <div class="flex ml-36">
+                    <img src="photo/h1.webp" alt="" class="">
+                    <img src="photo/h2.webp" alt="">
+                    <img src="photo/h3.webp" alt="">
+                    <img src="photo/h4.webp" alt="">
+                    <img src="photo/h5.webp" alt="">
+                    <img src="photo/h6.webp" alt="">
+                </div>
+            </div>
+            <div class="col-span-2">
+                <div class="relative mt-14">
+                    <div>
+                        <img src="photo/bimg.webp" alt="" >
+                    </div>
+                    <div class="absolute -mt-12 ml-8 flex justify-between">
+                        <div>
+                            <span class="text-yellow-300">MMK8,402</span>
+                            <span>off every</span>
+                            <span>MMK42,011</span>
+                            <span>(max MMK70,597,096)</span>
+                        </div>  
+                        <div class="-mt-6 ml-40 ">
+                            <img src="photo/1111.webp" alt="" class="h-16">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-full flex justify-between">
+                    <div>
+                        <span>MMK</span>
+                        <span>7,058</span>
+                        <span>MMK16,048</span>
+                        <span>-56%  </span>
+                    </div>
+                    <div>
+                        <span>END</span>
+                        <span class="bg-red-400">5  </span>
+                        <span class="text-red-400"> :</span>
+                        <span class="bg-red-400">56</span>
+                        <span class="text-red-400">:</span>
+                        <span class="bg-red-400">39</span>
+                    </div>
+                </div>
+                <div class="w-full">
+                    <p>Winter Polar Coral Hat Fleece Balaclava Men Face Warmer Beanies Thermal Head Cover Tactical Military Sports Scarf Caps</p>
+                </div>
+                <div class="pb-6 border-b-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>4.7</span>
+                    <span class="text-neutral-400">1511 Reviews  ౹  10,000+ sold</span>
+                </div>
+                <div class="pb-6 border-b-2">
+                    <span>Color: Black</span>
+                    <div class="flex rounded-lg gap-4">
+                        <img src="photo/ha0" alt="">
+                        <img src="photo/ha1.webp" alt="">
+                        <img src="photo/ha5.webp" alt="">
+                        <img src="photo/ha2.webp" alt="">
+                        <img src="photo/ha3.webp" alt="">
+                        <img src="photo/ha4.webp" alt="">
+                    </div>
+                    <span>Size: 56-60cm</span>
+                    <div>
+                        <button type="button" class="border-2 border-black rounded-lg p-2">56-60cm</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="border mx-6 mt-14 rounded-lg p-5 h-[530px]">
+                <div class="flex justify-between border-b-2 pb-4">
+                    <span>Ship to</span>
+                    <span><i class="fa-solid fa-location-dot"></i>  Myanmar</span>
+                </div>
+                <div class="py-4 border-b-2">
+                    <span>Delivery <i class="fa-solid fa-arrow-right"></i></span> <br>
+                    <span>Free Shipping </span> <br>
+                    <span class=" text-slate-400">Estimated delivery: 30-50 days </span>
+                </div>
+                <div class="py-4 border-b-2">
+                    <span>Service <i class="fa-solid fa-arrow-right"></i></span> <br>
+                    <span class=" text-slate-400">Buyer protection</span>
+                </div>
+                <div class="pt-4">
+                    <p>Quantity</p>
+                    <div class="py-1 gap-4 flex">
+                        <button type="button" class="bg-slate-200 w-6 border rounded-full">-</button>
+                        <span>1</span>
+                        <button type="button" class="bg-slate-200 w-6 border rounded-full">+</button>
+                    </div>
+                    <p>3 pieces at most per customer</p>
+                    <button type="button" class="w-full bg-red-500 text-white rounded-full my-2 py-2">Buy now</button>
+                    <button type="button" class="w-full bg-red-100 text-red-600 rounded-full my-2 py-2">Add to Cart</button>
+                    <div class="grid grid-cols-2 gap-4">
+                        <button type="button" class="border-black border rounded-full my-2 py-2 w-full"><i class="fa-solid fa-share"></i> Share</button>
+                        <button type="button" class="border-black border rounded-full my-2 py-2 w-full" ><i class="fa-regular fa-heart"></i> 5097</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m-24  border-t-2 border-slate-400">
+            <div class="flex gap-6 my-8">
+                <span class="font-bold"><i class="fa-solid fa-location-dot"></i>  Description   </span>
+                <span>Specifications</span>
+                <span>Customer Reviews (1512)</span>
+                <span>You may also like</span>
+
+            </div>
+            <img src="photo/kidtoy.webp" alt="" class="rounded-full w-full">
+            <div class="flex justify-between m">
+                <span>Description</span>
+                <span>Report Item</span>
+            </div>
+            <div class="py-4">
+                <p>• Thermal Head Cover: Keep your head warm and cozy with this thermal head cover.</p>
+
+                <p>• Tactical Military Sports Scarf: This scarf is perfect for outdoor activities like hiking and camping.</p>
+
+                <p>• Unisex Design: Suitable for both men and women, this beanie is versatile and practical.</p>
+
+                <p>• Solid Color: The solid color design adds a touch of simplicity and elegance to your winter outfit.</p>
+
+                <p>• Made of Polyester: Durable and warm material that can withstand harsh winter weather.</p>
+
+                <p>• Unisex design: Suitable for both men and women, making it a versatile accessory for any winter outfit.</p>
+
+                <p>• Tactical Military Style: The hat's design is inspired by tactical military gear, adding a unique touch to your winter look.</p>
+
+                <p>• Thermal Head Cover: Provides insulation and warmth to your head and face, keeping you comfortable in cold weather.</p>
+
+                <p>• Thermal Head Cover: Keep your head warm and cozy with this thermal head cover.</p>
+
+                <p>• Versatile Design: This hat can be worn as a balaclava or a beanie, making it perfect for any winter activity.</p>
+
+                <p>• Tactical Military Style: The hat's design is inspired by tactical military gear, giving it a rugged and stylish look.</p>
+
+                <p>• Unisex design: This hat is suitable for both men and women, making it a versatile accessory for anyone.</p>
+
+                <p>• Thermal Head Cover: Keep your head warm and cozy with this thermal head cover.</p>
+
+                <p>• Versatile Design: This hat can be worn as a balaclava or a beanie, making it perfect for any winter activity.</p>
+
+                <p>• Tactical Military Style: The hat's design is inspired by tactical military gear, making it a stylish accessory for outdoor enthusiasts.</p>
+
+                <p>• Unisex design: This hat is suitable for both men and women, making it a versatile accessory for anyone who wants to stay warm during the winter season.</p>
+
+                <div class="py-4">
+                    <p>Specifications:</p>
+                    <p>Item: Thermal Head Cover</p>
+                    <p>Style: Casual, Keep Warm</p>
+                    <p>Material: Polyester</p>
+                    <p>Color: Brown, Green, Gray, Black, Dark Blue, Blue</p>
+                    <p>Number of pieces: 1 Piece</p>
+                    <p>Product Size: 30 × 25cm/11.8 × 9.8inch</p>
+                </div>
+
+
+                <p>Features:</p>
+                <p>1. Superior Material: Soft and Skin-Friendly, Breathable and Quick Drying, Protect Your Face, Ear and Neck From Sun, Wind, Dust.</p>
+                <p>2. Multi-Function: Wear It as a Closed, Neck Gaiter. Can Be Worn on Its Own or Under Any Kind Of Helmet Or Hat.</p>
+                <p>3. Multi-Purpose: Ideal For Outdoor Activities Like Skiing, Snowboarding, Motorcycling, Cycling, Running, Trekking, Mountain Climbing, Hunting.</p>
+
+            </div>
+            <div>
+                <img src="photo/ezgif.com-webp-to-jpg.webp" alt="">
+                <div class="flex justify-center">
+                    <button type="button"  class="py-2.5 px-5 me-2 mb-2  font-medium text-black focus:outline-none rounded-full" style="background-color:rgb(169, 171, 174);">  View More</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="m-24  border-t-2 border-slate-400">
+            <p class="pt-14 font-bold">Specification</p>
+            <div>
+                <div class="relative overflow-x-auto shadow-md ">
+                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+
+                        <tbody>
+                            <tr class="border-y border-gray-200 dark:border-gray-700">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                                    Feature
+                                </th>
+                                <td class="px-6 py-4">
+                                    Keep warm
+                                </td>
+                                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800"> 
+                                    Applicable Scene
+                                </td>
+                                <td class="px-6 py-4">
+                                    Casual
+                                </td>
+                            </tr>
+                            <tr class="border-b border-gray-200 dark:border-gray-700">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                                    Applicable Season
+                                </th>
+                                <td class="px-6 py-4">
+                                    Winter
+                                </td>
+                                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                                    Release Date
+                                </td>
+                                <td class="px-6 py-4">
+                                    Spring2022
+                                </td>
+                            </tr>
+                            <tr class="border-b border-gray-200 dark:border-gray-700">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                                    Pattern Type
+                                </th>
+                                <td class="px-6 py-4">
+                                    Solid
+                                </td>
+                                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                                    Style
+                                </td>
+                                <td class="px-6 py-4">
+                                    Casual
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="flex justify-center">
+                <button type="button"  class="py-2.5 px-5 me-2 my-4  font-medium text-black focus:outline-none rounded-full" style="background-color:rgb(202, 204, 206);">  View More</button>
+            </div>
+        </div>
+
+        <div class="m-24  border-t-2 border-slate-400">
+            <p class="pt-14 font-bold">Customer Reviews (5112)</p>
+            <div class="grid grid-cols-2 pt-8">
+                <div>
+                    <p class="text-6xl font-bold">4.7</p>
+                    <div class="pb-6 ">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p>All reviews come from verified purchasers</p>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="flex gap-2">
+                        <span>5 stars</span>    
+                        <div class="pt-2">
+                            <div class="w-[600px] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div class="bg-black h-2.5 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <span>1255</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <span>4 stars</span>    
+                        <div class="pt-2">
+                            <div class="w-[600px] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div class="bg-black h-2.5 rounded-full" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <span>169</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <span>3 stars</span>    
+                        <div class="pt-2">
+                            <div class="w-[600px] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div class="bg-black h-2.5 rounded-full" style="width: 2%"></div>
+                            </div>
+                        </div>
+                        <span>36</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <span>2 stars</span>    
+                        <div class="pt-2">
+                            <div class="w-[600px] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div class="bg-black h-2.5 rounded-full" style="width: 1%"></div>
+                            </div>
+                        </div>
+                        <span>11</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <span>1 stars</span>    
+                        <div class="pt-2">
+                            <div class="w-[600px] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div class="bg-black h-2.5 rounded-full" style="width: 4%"></div>
+                            </div>
+                        </div>
+                        <span>41</span>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <button type="button" class="border-2 border-red-400 bg-red-100 rounded-lg p-2">All(1509)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">Pic review (123)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">Additional review (24)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">Local review (0)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">5 stars (1255)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">4 stars (169)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">3 stars (36)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">2 stars (11)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">1 star (41)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">Good for this price (47)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">Nice very light weight (27)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">quality is good (26)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">it is warm (20)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">good product (18)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">as described (13)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">Love all of it (12)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">fast delivery (12)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">price OK (11)</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">great fleece material (10)</button>
+
+            </div>
+            <div class="flex gap-4 my-6">
+                <span>Sort by default <i class="fa-solid fa-caret-down"></i></span>
+                <span>Show original translate</span>
+            </div>
+            <div class="grid grid-cols-2 ">
+                <div class="pb-6 ">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>Size:56-60cm Color:Black</p>
+                    <p>Arrived very fast and very warm the material recommended the seller.</p>
+                </div>
+                <div class="text-end">
+                    <p>14 Nov 2023</p>
+                    <p>L***z</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button type="button"  class="py-2.5 px-5 me-2 my-4  font-medium text-black focus:outline-none rounded-full" style="background-color:rgb(202, 204, 206);">  View More</button>
+            </div>
+
+        </div>
+
+        <div class="m-24  border-t-2 border-slate-400">
+            <p class="pt-14 font-bold">Recommended from Shop5370096 Store <i class="fa-solid fa-arrow-right"></i></p>
+
+            <div class="grid grid-rows-2">
+        
+                <div class="flex flex-row">
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                        <img src="photo/b2.webp" alt="" class="rounded-lg">
+
+                        <div class="flex pb-2">
+                            <p class=" font-bold">MMK74,950</p>
+
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+
+                </div>
+                <div class="flex flex-row h-[300px]">
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                        <img src="photo/b2.webp" alt="" class="rounded-lg">
+
+                        <div class="flex pb-2">
+                            <p class=" font-bold">MMK74,950</p>
+
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 mb-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+                    <div class="py-5 px-3 me-2 text-sm font-medium hover:shadow group relative hover:bg-white focus:outline-non rounded-lg   hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 r">
+                        <img src="photo/bag.webp" alt="" class="rounded-lg">
+                        <div class="flex flex-col pb-2">
+                            <p class=" text-sm">Luxury Plating Clear Hard PC Glass Lens...</p>
+                        </div>
+                        <button type="button"  class="py-2.5 px-5 me-2 mb-2 ml-6 text-sm font-medium  focus:outline-none absolute hidden group-hover:block group-hover:bg-black rounded-full   group-hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">  Home Improvemnent & Lighting </button>
+
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="flex justify-center">
+                <button type="button"  class="py-2.5 px-5 me-2 mb-4  font-medium text-black focus:outline-none rounded-full" style="background-color:rgb(202, 204, 206);">  View More</button>
+            </div>
+        </div>
+
+        <div class="m-24 mb-0 border-t-2 border-slate-400">
+            <p class="pt-14 font-bold">People also searched</p>
+            <p class="pt-2">Related Search</p>
+            <div class="">
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">mens winter bonnets and mask</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">balaclava bonnet warm man</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">cap man wool hood</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">head warmers for men</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">winter face cap for men</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">balaclava men winter</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">balaclava polar fleece</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">warm men s hats</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">warm caps for men mask</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">winter hats masks men</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">hat mask warm</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">hat hood for men</button>
+            </div>
+            <p class="pt-2">Related Search</p>
+            <div class="">
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">bennie for men</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">balaclava bonnet warm man</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">cap man wool hood</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">head warmers for men</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">winter face cap for men</button>
+                <button type="button" class="bg-slate-500 rounded-lg p-2" style="background-color:rgb(210, 214, 220);">c earing</button>
+            </div>
+            <p class="py-4">This product belongs to Home</p>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="bg-slate-200">
+
+            <div class="grid grid-cols-2">
+                <div class="grid-rows-2 m-10">
+                    <div class="justify-center flex flex-col mb-10 ">
+                        <h1 class="text-black font-bold pb-4 ">Help </h1>
+                        <p>Help Center, Disputes & Reports, Buyer Protection, Report IPR infringement, Regulated Information, Integrity <br> Compliance</p>
+                    </div>
+                    <div class="justify-center flex flex-col ">
+                        <h1 class="text-black font-bold pb-4 ">Browse by Category </h1>
+                        <p>All Popular, Product, Promotion, Low Price, Great Value, Reviews, Blog, Seller Portal, BLACK FRIDAY, AliExpress <br> Assistant</p>
+                    </div>
+                </div>
+                <div class="grid-rows-2 m-10">
+                    <div class="justify-center flex flex-col mb-10 ">
+                        <h1 class="text-black font-bold pb-4 ">AliExpress Multi-Language Sites </h1>
+                        <p>Russian, Portuguese, Spanish, French, German, Italian, Dutch, Turkish, Japanese, Korean, Thai, Vietnamese, Arabic, Hebrew, <br> Polish</p>
+                    </div>
+                    <div class="justify-center flex flex-col ">
+                        <h1 class="text-black font-bold pb-4 ">Alibaba Group    </h1>
+                        <p>Alibaba Group Website, AliExpress, Alimama, Alipay, Fliggy, Alibaba Cloud, Alibaba International, AliTelecom, DingTalk, <br> Juhuasuan, Taobao Marketplace, Tmall, Taobao Global, AliOS, 1688</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex bg-black text-white text-sm justify-center items-center py-2 ">
+            <h1>Intellectual Property Protection - Privacy Policy - Sitemap - Terms of Use - Information for EU consumers - Imprint - Transaction Services Agreement for non-EU/UK Consumers - Terms and Conditions for EU/EEA/UK Consumers - User <br>Information Legal Enquiry Guide ©️2010-2023 AliExpress.com. All rights reserved. 增值电信业务经营许可证 增值电信业务经营许可证 浙B2-20120091-8 浙公网安备 浙公网安备 33010802002248号</h1>
+        </div>
+    </footer>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
+</html>
